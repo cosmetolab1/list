@@ -54,7 +54,7 @@ def analyze_pdf_with_ai(bytes_data, filename):
 
   try:
     response = client.models.generate_content(
-        model="gemini-2.5-flash",  # Διόρθωση μοντέλου σε σταθερό διαθέσιμο
+        model="gemini-3.6-flash",  # Διόρθωση μοντέλου σε σταθερό διαθέσιμο
         contents=prompt,
         config=types.GenerateContentConfig(
             system_instruction=(
