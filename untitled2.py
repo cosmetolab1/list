@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1fZ0ASlodH9Ulpw0uezo6gRZA-IOMhMvg
 """
 
-!pip install streamlit
 import fitz  # PyMuPDF
 import pandas as pd
 import re
